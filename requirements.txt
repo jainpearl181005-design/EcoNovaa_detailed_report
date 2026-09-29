@@ -1,0 +1,12 @@
+# EcoNova - Python dependencies
+# Stage 1 (AI / webcam detection):
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# Stage 2 (ESP32 serial communication):
+pyserial>=3.5
+
+# Software Prototype dependencies:
+flask>=3.0.0
+qrcode[pil]>=7.4.2
